@@ -1,0 +1,140 @@
+/*TIPO DE LETRAS*/
+@font-face{
+    font-family: "titulo";
+    src: url(../font/Bluetea.ttf);
+}
+/*El fondo de pantalla*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    min-height: 100vh;
+    background: #616161;  /* fallback for old browsers */
+    background: url(../img/Sitio\ Web\ landing\ page\ diseño\ delicado\ minimalista\ para\ joyas\ hechas\ a\ mano\ dorado\ y\ beis\ \(1\)_page-0001.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/*Barra de Menu*/
+header{
+    background-color:#EAE9E9;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    background: #EAE9E9;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.nav.active{
+    background: #EAE9E9;
+}
+
+/*Parte del centro*/
+.logo img{
+    height: 50px;
+    margin-right: 100px;
+}
+
+/*Parte de la izquierda*/
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #959595;
+    border-radius: 15px;
+}
+.main1{
+    list-style: none;
+    font-weight: 600;
+    padding-left: 280px;
+    padding-right: auto;
+}
+.main2{
+    list-style: none;
+    font-weight: 600;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*parte derecha*/
+.menu2{
+    display: flex;
+}
+.menu2 li a:hover{
+    padding: 5px 10px;
+    background: #959595;
+    border-radius: 15px;
+}
+.menu2 li{
+    list-style: none;
+    font-weight: 600;
+    padding-right: 50px;
+}
+.menu2 li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu3 li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu3 li{
+    list-style: none;
+    font-weight: 600;
+    padding-left: 140px;
+}
+
+
+/*Inicio de la Pagina*/
+.img1{
+    float: right;
+    padding-top: 55px;
+    width: 857px;
+}
+.img1 img{
+    width: 737px;
+    height: 360px;
+}
+.img2{
+    float: right;
+    width: 857px;
+    margin-top: -5px;
+}
+.img2 img{
+width: 737px;
+height: 400px;
+}
+
+/*El cuerpo*/
+.elbarbas{
+    padding-top: 400px;
+    text-align: center;
+    left: 10%;
+}
+.titulo{
+    font-family: "titulo";
+    font-size: 60px;
+}
+.info{
+    font-size: 20px;
+    text-align: center;
+}
